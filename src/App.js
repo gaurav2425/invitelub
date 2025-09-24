@@ -84,14 +84,23 @@ const InviteScreen = () => {
         </div>
          <div className={styles.inviteDetails}>
           <div className={styles.inviteDescription}>
-            <strong>This is an invite-only dating app</strong> where only mutuals and mutuals of mutuals can join for online dating.<br /><br />
+            <strong>About Tattle Club</strong>
             <ul className={styles.inviteList}>
-              <li>Get started with 3 free tickets</li>
-              <li>Invite 3 friends and earn 1 extra ticket</li>
-              <li>Every room maintains a 50:50 men to women ratio</li>
-              <li>Waiting queue for entry, send roses to connect with people inside</li>
-              <li>Maximum 5 active chats at a time – unmatch to add new matches</li>
-              <li>Only people connected through your network can join</li>
+              <li>
+                <b>Invite-only access:</b> Only mutuals and their mutuals can join. Members can invite their trusted contacts.
+              </li>
+              <li>
+                <b>Free tickets:</b> Start with 3 free tickets. Invite 3 friends and get 1 extra ticket.
+              </li>
+              <li>
+                <b>Waiting queue & roses:</b> If the room is full, join the queue. Both inside and outside users can send roses to connect and invite each other for a chat.
+              </li>
+              <li>
+                <b>Chat limit:</b> You can have up to 5 active chats. To match with someone new, unmatch an existing chat.
+              </li>
+              <li>
+                <b>Speed dating:</b> Enjoy one-to-one speed dating. If you’re not interested, swap your pair for a new live conversation. Each user gets up to 10 swaps.
+              </li>
             </ul>
           </div>
         </div>
